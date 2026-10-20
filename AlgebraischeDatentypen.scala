@@ -69,11 +69,9 @@ object Form:
   println(inorder(Knoten(10,Knoten(5,Knoten(4,Nix,Nix),Knoten(7,Knoten(6,Nix,Nix),Knoten(8,Nix,Nix))),Knoten(30,Knoten(20,Nix,Knoten(22,Nix,Nix)),Nix))))
   println(inorder(Knoten(12,Knoten(42,Knoten(6,Knoten(2,Nix, Nix),Nix),Knoten(99,Knoten(23, Nix,Nix), Knoten(36, Nix,Nix))),Knoten(14,Knoten(3,Nix,Knoten(7, Nix, Nix)),Nix))))
 
+//Aufgabe 2
+//b)
 
-
-/* Aufgabe 2
-b)
-*/
 enum BBaum[+T]:
     case Nix
     case Knoten(value:T,lKind:BBaum[T],rKind:BBaum[T])
